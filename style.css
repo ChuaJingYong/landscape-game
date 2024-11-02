@@ -10,6 +10,8 @@
     .rotate-message {
         display: none;
       }
+
+
   }
   
   /* Apply fallback for portrait mode */
@@ -22,6 +24,10 @@
       height: 100vh;
       /* Optional message to ask users to rotate their device */
     }
+
+    .landscape-mode {
+        display: none;
+      }
 
     .rotate-message {
         display: flex;
